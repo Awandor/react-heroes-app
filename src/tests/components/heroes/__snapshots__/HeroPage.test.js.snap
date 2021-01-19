@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroPage /> debe llamar Redirect si el héroe no existe 1`] = `""`;
+
+exports[`Pruebas en <HeroPage /> debe regresar a la pantalla anterior con goBack 1`] = `
+<div
+  className="row mt-5"
+>
+  <div
+    className="col-4"
+  >
+    <img
+      alt="{superhero}"
+      className="img-thumbnail animate__animated animate__fadeInLeft"
+      src="../assets/heroes/marvel-spider.jpg"
+    />
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3>
+      Spider Man
+    </h3>
+    <ul
+      className="list-group list-group-flush"
+    >
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Alter ego:
+        </b>
+         
+        Peter Parker
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          Publisher:
+        </b>
+         
+        Marvel Comics
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <b>
+          First appearance:
+        </b>
+         
+        Amazing Fantasy #15
+      </li>
+    </ul>
+    <h5>
+      Characters
+    </h5>
+    <p>
+      Peter Parker
+    </p>
+    <button
+      className="btn btn-info"
+      onClick={[Function]}
+    >
+      Volver
+    </button>
+  </div>
+</div>
+`;
